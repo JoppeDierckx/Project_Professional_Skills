@@ -1,0 +1,88 @@
+footer {
+    border: solid 2px lightgray;
+    background-color: darkred;
+    color: lightgray;
+    width: auto;
+    height: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.afbeelding {
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+}
+
+.border {
+    border: solid 2px darkred;
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.item {
+    margin-left: 100px
+}
+
+.rechts {
+    text-align: right;
+}
+
+.midden {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.padding {
+    padding: 25px
+}
+
+.content {
+    min-height: calc(100vh - 200px);
+}
+
+.navbar-header {
+    padding: 5px;
+}
+
+a {
+    color: lightgray;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .item {
+        margin-left: 10px
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        text-align: center !important;
+        height: auto;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .rechts {
+        text-align: center;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="globalCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="navbar-header">
+                    <a href="home.html"><img src="afbeeldingen/VolwebstudioLogoKlein%5B577%5D.jpg" class="afbeelding"></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="item"><a href="home.html">Home</a></li>
+                    <li class="item"><a href="over_ons.html">over ons</a></li>
+                    <li class="item"><a href="Werkwijze.html">Werkwijze</a></li>
+                    <li class="item"><a href="onze_tarieven.html">Tarieven</a></li>
+                    <li class="item"><a href="portfolio.html">portfolio</a></li>
+                    <li class="item"><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Volwebstudio,%20Kerkstraat,%20Vosselaar&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <form action="mailto:joppe.dierckx@hotmail.be" method="post" enctype="text/plain">
+                <label for=" name">naam</label>
+                <input type="text" id="name" name="name" placeholder="Vul je naam in">
+
+                <label for="email">email</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+
+                <label for="telefoon">telefoon</label>
+                <input type="text" id="telefoon" name="telefoon" placeholder="Telefoon-GSM">
+
+                <label for="onderwerp">onderwerp</label>
+                <input type="text" id="onderwerp" name="onderwerp" placeholder="onderwerp">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Uw bericht" style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+
+    <footer class=" footer padding">
+        <div class="row ">
+            <div class="col-lg-4 left">
+                <h5>VOLWEBSTUDIO</h5>
+                <p>Vragen over webdesign</p>
+                <p>Onze werkwijzen</p>
+                <p>Prijzen webdesign</p>
+                <p>Onze realisaties</p>
+            </div>
+            <div class="col-lg-4 midden">
+                <h5>WEBDESIGN</h5>
+                <p>BY VICKY LAUWERS</p>
+            </div>
+            <div class="col-lg-4 rechts">
+                <p>contacteer ons</p>
+                <p>Volwebstudio</p>
+                <p>Kerkstraat 49</p>
+                <p>2350 Vosselaar</p>
+                <a href="mailto:info@volwebstudio.be">info@volwebstudio</a>
+                <p><a href="tel:0437261575">+32 (0)437 26 15 75</a></p>
+            </div>
+        </div>
+    </footer>
+</body></html>

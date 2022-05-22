@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="globalCSS.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="navbar-header">
+                    <a href="home.html"><img src="afbeeldingen/VolwebstudioLogoKlein%5B577%5D.jpg" class="afbeelding"></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="item"><a href="home.html">Home</a></li>
+                    <li class="item"><a href="over_ons.html">over ons</a></li>
+                    <li class="item"><a href="Werkwijze.html">Werkwijze</a></li>
+                    <li class="item"><a href="onze_tarieven.html">Tarieven</a></li>
+                    <li class="item"><a href="portfolio.html">portfolio</a></li>
+                    <li class="item"><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="border">Onze realisaties</h2>
+
+            <div class="myBtnContainer">
+                <button class="btn spatie" onclick="filterSelection('all')"> Alles</button>
+                <button class="btn spatie" onclick="filterSelection('autohandelaars')"> Autohanderlaars</button>
+                <button class="btn spatie" onclick="filterSelection('horecazaken')"> Horeca</button>
+                <button class="btn spatie" onclick="filterSelection('consultings')"> Consulting</button>
+                <button class="btn spatie" onclick="filterSelection('logopedies')"> Logopedie</button>
+                <button class="btn spatie" onclick="filterSelection('bouwbedrijven')"> Bouw</button>
+                <button class="btn spatie" onclick="filterSelection('creatiefs')"> Creatief</button>
+                <button class="btn spatie" onclick="filterSelection('winkels')"> Winkel</button>
+                <button class="btn spatie" onclick="filterSelection('schoonheids')"> Schoonheid</button>
+                <button class="btn spatie" onclick="filterSelection('natuurs')"> Natuur</button>
+            </div>
+
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv autohandelaars">
+                    <img class=" card-img-top" src="afbeeldingen/Autohandelaar1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4>Inter Cars</h4>
+                        <h5>Sint-Niklaas</h5>
+                        <h5>Autohandelaar</h5>
+                        <a href="https://www.intercars-autoinkoop.be/">
+                            <p>https://www.intercars-autoinkoop.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv autohandelaars">
+                    <img class="card-img-top" src="afbeeldingen/Autohandelaar2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Adocars</h4>
+                        <h5>Sint-Niklaas</h5>
+                        <h5>Autohandelaar</h5>
+                        <a href="https://www.opkoper-bedrijfswagens.be/">
+                            <p>https://www.opkoper-bedrijfswagens.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv autohandelaars">
+                    <img class="card-img-top" src="afbeeldingen/Autohandelaar3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>opkoperauto1</h4>
+                        <h5>Sint-Niklaas</h5>
+                        <h5>Autohandelaar</h5>
+                        <a href="https://www.opkoperauto1.be/">
+                            <p>https://www.opkoperauto1.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv horecazaken">
+                    <img class="card-img-top" src="afbeeldingen/Horeca1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Nathan Restaurant</h4>
+                        <h5>Antwerpen</h5>
+                        <h5>Horeca</h5>
+                        <a href="https://www.restaurant-nathan.be/">
+                            <p>https://www.restaurant-nathan.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv consultings">
+                    <img class="card-img-top" src="afbeeldingen/Consulting1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Woon Droom</h4>
+                        <h5>Balen</h5>
+                        <h5>Consulting</h5>
+                        <a href="https://woon-droom.eu/">
+                            <p>https://woon-droom.eu</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv consultings">
+                    <img class="card-img-top" src="afbeeldingen/Consulting2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Analivia</h4>
+                        <h5>Westmalle</h5>
+                        <h5>Consulting</h5>
+                        <a href="https://www.analivia.be/">
+                            <p>https://www.analivia.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv consultings">
+                    <img class="card-img-top" src="afbeeldingen/Consulting3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Syllavie</h4>
+                        <h5>Westmalle</h5>
+                        <h5>Consulting</h5>
+                        <a href="https://www.syllavie.be/">
+                            <p>https://www.syllavie.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv consultings">
+                    <img class="card-img-top" src="afbeeldingen/Consulting4.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Pit coaching talent</h4>
+                        <h5>Vosselaar</h5>
+                        <h5>Consulting</h5>
+                        <a href="https://www.pitcoachingtalent.be/">
+                            <p>https://www.pitcoachingtalent.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv logopedies">
+                    <img class="card-img-top" src="afbeeldingen/Logopedie1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Logopedie Ravels</h4>
+                        <h5>Ravels</h5>
+                        <h5>Logopedie</h5>
+                        <a href="https://www.logopedie-ravels.be/">
+                            <p>https://www.logopedie-ravels.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv logopedies">
+                    <img class="card-img-top" src="afbeeldingen/Logopedie2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Logopedie Arendonk</h4>
+                        <h5>Arendonk</h5>
+                        <h5>Logopedie</h5>
+                        <a href="https://www.logopedie-arendonk.be/">
+                            <p>https://www.logopedie-arendonk.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv logopedies">
+                    <img class="card-img-top" src="afbeeldingen/Logopedie3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Logopedie Sarah Heyndrickx</h4>
+                        <h5>Hoogstraten</h5>
+                        <h5>Logopedie</h5>
+                        <a href="https://www.logopedie-sarah-heyndrickx.be/">
+                            <p>https://www.logopedie-sarah-heyndrickx.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv bouwbedrijven">
+                    <img class="card-img-top" src="afbeeldingen/Bouw1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>DKS Dakwerken</h4>
+                        <h5>Westmalle</h5>
+                        <h5>Bouw</h5>
+                        <a href="https://www.dksdakwerken.be/">
+                            <p>https://www.dksdakwerken.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv bouwbedrijven">
+                    <img class="card-img-top" src="afbeeldingen/Bouw2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Gio Klinkerwerken</h4>
+                        <h5>Vosselaar</h5>
+                        <h5>Bouw</h5>
+                        <a href="https://www.klinkerwerkengio.be/">
+                            <p>https://www.klinkerwerkengio.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv bouwbedrijven">
+                    <img class="card-img-top" src="afbeeldingen/Bouw3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Pro Painting Schilderwerken</h4>
+                        <h5>Vosselaar</h5>
+                        <h5>Bouw</h5>
+                        <a href="https://www.propainting-schilderwerken.be/">
+                            <p>https://www.propainting-schilderwerken.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv creatiefs">
+                    <img class="card-img-top" src="afbeeldingen/Creatief1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Creative Factory</h4>
+                        <h5>Turnhout</h5>
+                        <h5>Creatief</h5>
+                        <a href="https://www.creative-factory.be/">
+                            <p>https://www.creative-factory.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv creatiefs">
+                    <img class="card-img-top" src="afbeeldingen/Creatief2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Atelier De Vonder</h4>
+                        <h5>Turnhout</h5>
+                        <h5>Creatief</h5>
+                        <a href="https://www.atelierdevonder.be/">
+                            <p>https://www.atelierdevonder.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv creatiefs">
+                    <img class="card-img-top" src="afbeeldingen/Creatief3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Studio Mattes</h4>
+                        <h5>herk-de-stad</h5>
+                        <h5>Creatief</h5>
+                        <a href="https://www.studio-mattes.com/">
+                            <p>https://www.studio-mattes.com</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv winkels">
+                    <img class="card-img-top" src="afbeeldingen/Winkels1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Manouh</h4>
+                        <h5>Vosselaar</h5>
+                        <h5>Winkel</h5>
+                        <a href="https://www.manouh.be/">
+                            <p>https://www.manouh.be/</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv winkels">
+                    <img class="card-img-top" src="afbeeldingen/Winkels2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>De Soepboerin</h4>
+                        <h5>Weelde-Statie</h5>
+                        <h5>Winkel</h5>
+                        <a href="https://www.desoepboerin.be/">
+                            <p>https://www.desoepboerin.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv winkels">
+                    <img class="card-img-top" src="afbeeldingen/Winkels3.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Ameno</h4>
+                        <h5>Schilde</h5>
+                        <h5>Winkel</h5>
+                        <a href="https://www.ameno-schilde.be/">
+                            <p>https://www.ameno-schilde.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv schoonheids">
+                    <img class="card-img-top" src="afbeeldingen/Schoonheid1.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Faciem</h4>
+                        <h5>‘s Gravenwezel</h5>
+                        <h5>Schoonheid</h5>
+                        <a href="https://www.faciem.be/">
+                            <p>https://www.faciem.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv schoonheids">
+                    <img class="card-img-top" src="afbeeldingen/Schoonheid2.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Schoonheidssalon INOUI</h4>
+                        <h5>Westmalle</h5>
+                        <h5>Schoonheid</h5>
+                        <a href="https://www.schoonheidssalon-inoui.be/">
+                            <p>https://www.schoonheidssalon-inoui.be</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 filterDiv natuurs">
+                    <img class="card-img-top" src="afbeeldingen/Natuur.jpg" alt="foto website">
+                    <div class="card-body">
+                        <h4>Tuinen in stijl</h4>
+                        <h5>Geel</h5>
+                        <h5>Natuur</h5>
+                        <a href="https://www.tuineninstijl.be/">
+                            <p>https://www.tuineninstijl.be</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" footer padding">
+        <div class="row">
+            <div class="col-lg-4 left">
+                <h5>VOLWEBSTUDIO</h5>
+                <p>Vragen over webdesign</p>
+                <p>Onze werkwijzen</p>
+                <p>Prijzen webdesign</p>
+                <p>Onze realisaties</p>
+            </div>
+            <div class="col-lg-4 midden">
+                <h5>WEBDESIGN</h5>
+                <p>BY VICKY LAUWERS</p>
+            </div>
+            <div class="col-lg-4 rechts">
+                <p>contacteer ons</p>
+                <p>Volwebstudio</p>
+                <p>Kerkstraat 49</p>
+                <p>2350 Vosselaar</p>
+                <a href="mailto:info@volwebstudio.be">info@volwebstudio</a>
+                <p><a href="tel:0437261575">+32 (0)437 26 15 75</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
